@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+     margin-left: 5rem;  
+    margin-right: 5rem; 
+    margin-top: 5rem; 
+    
+}
+
+ .User{
+  display: flex;
+  flex-direction: column;
+  height: 19rem;
+  width: 35rem;
+  background-color: aquamarine;
+  /* justify-content: center; */
+ }
+ .btn-choose{
+    display: flex;
+     
+   flex: 1;
+   /* margin-top: 2rem;
+   margin-bottom: 2rem; */
+   height: 25vh;
+   width: 25vw;
+
+ }
+ /* .btn-output{
+    align-items: start;
+   
+    color: solid black;
+    font-size: large;
+
+ } */
+ .btn{
+    /* background-image: url(/Images/scissors.png); */
+    height: 15vh;
+    width: 15vh;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* margin-bottom: 4rem; */
+    font-size: 60px;
+    margin-top: 40px;
+ }
+ /* .btn-paper{
+    
+    height: 15vh;
+    width: 15vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem;
+ }
+ .btn-rock{
+
+    height: 15vh;
+    width: 15vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem;
+ } */
+
+
+
+/* Computer Area */
+.btn-choose-computer{
+    display: flex;
+    /* justify-content: center; */
+  flex: 1;
+ 
+}
+.Computer{
+    display: flex;
+    flex-direction: column;
+    height: 19rem;
+    width: 35rem;
+  
+    background-color: aquamarine;
+   
+    align-items: center;
+   }
+  #game-result-message{
+    color: black;
+    background-color: aquamarine;
+    
+  }
